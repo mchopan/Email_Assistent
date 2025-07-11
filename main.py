@@ -33,12 +33,4 @@ graph = builder.compile()
 
 response = graph.invoke({})
 
-
-important = {
-    "summary": response.get("summary"),
-    "category": response.get("category"),
-    "reply": response.get("reply")
-}
-
-pprint(important, sort_dicts=False)
-
+print(response["summary"])
