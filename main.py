@@ -5,7 +5,6 @@ from agents.responder import suggest_reply_agent
 from tools.email_tools import get_last_email, get_email_content
 from tools.reply_tools import send_email
 from langgraph.graph import StateGraph, START, END
-from pprint import pprint
 
 from typing import TypedDict
 
